@@ -128,5 +128,11 @@ VALUES	('thanhpc@gmail.com', 'thanhvc', 'Vu Cong Thanh', 1, 1),
         ('Hoangducchien@gamil.com', 'ducchien', 'Hoang Duc Chien' , 3,1),
         ('Hoangvantan@gmail.com', 'vantan', 'Hoang Van Tan' , 1,4);
 	    
+        UPDATE Department 
+  SET   			DepartmentName = 'MKT66666' 
+  WHERE  DepartmentName  = 'SALE' ;
+  
+  
+  DELETE FROM `Account` WHERE Username ='thanhvc2';
         
         
